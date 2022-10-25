@@ -1,0 +1,61 @@
+.signInBtn {
+    height: 44px;
+    width: 130px;
+    margin-top: 60px;
+    border-radius: 4px;
+    background-color: var(--font-white-color);
+    color: var(--font-blue-color);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.signUpBtn {
+    height: 44px;
+    width: 130px;
+    margin-top: 36px;
+    border-radius: 4px;
+    background-color: var(--font-white-color);
+    color: var(--font-blue-color);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.resetBtn {
+    box-sizing: border-box;
+    height: 46px;
+    width: 181px;
+    border: 1px solid var(--font-blue-color);
+    border-radius: 4px;
+    color: var(--font-blue-color);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    background-color: var(--font-white-color);
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.submitBtn {
+    height: 45px;
+    width: 180px;
+    border-radius: 4px;
+    background-color: #0E85FF;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--font-white-color);
+}

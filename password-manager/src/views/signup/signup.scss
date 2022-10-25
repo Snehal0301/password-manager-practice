@@ -1,0 +1,64 @@
+.login-container {
+    background: var(--linear-gradient);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.signUpLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-right: 1px solid var(--border-white-color);
+}
+
+.signUpLogo img {
+    width: 176px;
+    margin: 94px 77px 34px 81px;
+}
+
+.signUpLogo h2 {
+    width: 17rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--font-white-color);
+    margin: 0 25px 99px 28px;
+}
+
+.signUpLogo-mobile {
+    display: none;
+}
+
+/* ------------signUpContent----------------- */
+
+.signUpContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ----------------Media query----------------- */
+@media screen and (max-width:900px) {
+    .login-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .signUpLogo {
+        justify-content: normal;
+        flex-basis: 0;
+    }
+
+    .signUpLogo-header {
+        display: none;
+    }
+
+    .signUpLogo-mobile {
+        display: block;
+    }
+
+
+}
